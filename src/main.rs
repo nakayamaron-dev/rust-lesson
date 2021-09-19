@@ -5,6 +5,7 @@ mod generics;
 mod lifetime;
 mod ownership;
 mod structs;
+mod traits;
 
 fn main() {
     // vars::run();
@@ -15,5 +16,6 @@ fn main() {
     // generics::run();
     // lifetime::run();
     // structs::run();
-    enums::run();
+    // enums::run();
+    traits::run();
 }

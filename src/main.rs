@@ -1,8 +1,10 @@
 // mod stack_heap;
 // mod vars;
+mod enums;
 mod generics;
 mod lifetime;
 mod ownership;
+mod structs;
 
 fn main() {
     // vars::run();
@@ -11,5 +13,7 @@ fn main() {
     // vars::sub_b::func_b();
     // ownership::run();
     // generics::run();
-    lifetime::run();
+    // lifetime::run();
+    // structs::run();
+    enums::run();
 }

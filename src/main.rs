@@ -1,5 +1,6 @@
 // mod stack_heap;
 // mod vars;
+mod generics;
 mod ownership;
 
 fn main() {
@@ -7,5 +8,6 @@ fn main() {
     // stack_heap::run();
     // vars::sub_a::func_a();
     // vars::sub_b::func_b();
-    ownership::run();
+    // ownership::run();
+    generics::run();
 }
